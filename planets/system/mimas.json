@@ -1,0 +1,85 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Mimas",
+    "starSystem": "titan2076.Titanverse",
+    "Base": {
+        "surfaceSize": 100,
+        "groundSize": 50,
+        "invulnerableToSun": false,
+        "hasMapMarker": true,
+        "showMinimap": true,
+        "surfaceGravity": 4
+    },
+    "HeightMap": {
+        "heightMap": "planets/textures/MimasHeight.png",
+        "maxHeight": 105,
+        "textureMap": "planets/textures/MimasColor.png",
+        "minHeight": 89
+    },
+    "Orbit": {
+        "primaryBody": "Uuanga",
+        "semiMajorAxis": 9600,
+        "isTidallyLocked": true,
+        "dottedOrbitLine": false,
+        "showOrbitLine": true,
+        "trueAnomaly": 270,
+        "longitudeOfAscendingNode": 0,
+        "eccentricity": 0,
+        "initialRotation": 60,
+        "alignmentAxis": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "canShowOnTitle": true,
+    "Props": {
+        "translatorText": [
+            {
+                "type": "whiteboard",
+                "xmlFile": "planets/text/TextSentience.xml",
+                "position": {
+                    "x": -46.08787,
+                    "y": -6.617628,
+                    "z": 82.61115
+                },
+                "rotation": {
+                    "x": 62.08802,
+                    "y": 230.2288,
+                    "z": 257.3272
+                },
+                "seed": 0,
+                "arcInfo": [
+                    {
+                        "type": "adult",
+                        "mirror": false
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    }
+                ],
+                "isRelativeToParent": false,
+                "alignRadial": false,
+                "rename": "Sentience"
+            }
+        ]
+    }
+}

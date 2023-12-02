@@ -1,0 +1,39 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Jupiter",
+    "starSystem": "titan2076.Titanverse",
+    "Base": {
+        "groundSize": 300,
+        "surfaceSize": 600,
+        "surfaceGravity": 24,
+        "hasMapMarker": true,
+        "showMinimap": true
+    },
+    "Atmosphere": {
+        "clouds": {
+            "cloudsPrefab": "basic",
+            "texturePath": "planets/textures/JupiterBands.png",
+            "tint": {
+                "r": 222,
+                "g": 185,
+                "b": 130,
+                "a": 255
+            },
+            "innerCloudRadius": 660,
+            "outerCloudRadius": 730
+        }
+    },
+    "Orbit": {
+        "primaryBody": "Uuanga",
+        "trueAnomaly": 270,
+        "semiMajorAxis": 12500,
+        "isTidallyLocked": true,
+        "showOrbitLine": true,
+        "alignmentAxis": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+        },
+        "initialRotation": 180
+    }
+}

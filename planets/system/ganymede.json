@@ -1,0 +1,85 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Ganymede",
+    "starSystem": "titan2076.Titanverse",
+    "Base": {
+        "surfaceGravity": 12,
+        "surfaceSize": 300,
+        "groundSize": 100,
+        "invulnerableToSun": false,
+        "hasMapMarker": true,
+        "showMinimap": true
+    },
+    "HeightMap": {
+        "heightMap": "planets/textures/GanymedeHeight.png",
+        "maxHeight": 305,
+        "minHeight": 290,
+        "textureMap": "planets/textures/GanymedeColor.png"
+    },
+    "Orbit": {
+        "primaryBody": "Uuanga",
+        "semiMajorAxis": 8144,
+        "isTidallyLocked": true,
+        "dottedOrbitLine": false,
+        "showOrbitLine": true,
+        "trueAnomaly": 270,
+        "longitudeOfAscendingNode": 0,
+        "eccentricity": 0,
+        "siderealPeriod": 0,
+        "alignmentAxis": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "canShowOnTitle": true,
+    "Props": {
+        "translatorText": [
+            {
+                "type": "whiteboard",
+                "xmlFile": "planets/text/TextUAI.xml",
+                "position": {
+                    "x": -46.17458,
+                    "y": 69.91911,
+                    "z": 282.1168
+                },
+                "rotation": {
+                    "x": 63.0646,
+                    "y": 40.41388,
+                    "z": 48.91496
+                },
+                "rename": "UAI",
+                "seed": 0,
+                "arcInfo": [
+                    {
+                        "type": "adult",
+                        "mirror": false
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    }
+                ],
+                "isRelativeToParent": false,
+                "alignRadial": false
+            }
+        ]
+    }
+}

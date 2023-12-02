@@ -1,0 +1,141 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Titan",
+    "starSystem": "titan2076.Titanverse",
+    "Atmosphere": {
+        "atmosphereTint": {
+            "r": 27,
+            "g": 0,
+            "b": 255,
+            "a": 255
+        },
+        "atmosphereSunIntensity": 1,
+        "fogDensity": 0.5,
+        "size": 350,
+        "useAtmosphereShader": true,
+        "fogSize": 350,
+        "fogTint": {
+            "r": 226,
+            "g": 186,
+            "b": 75,
+            "a": 255
+        },
+        "hasOxygen": true
+    },
+    "Base": {
+        "surfaceGravity": 12,
+        "surfaceSize": 300,
+        "groundSize": 100,
+        "invulnerableToSun": false,
+        "hasMapMarker": true,
+        "showMinimap": true
+    },
+    "HeightMap": {
+        "heightMap": "planets/textures/TitanHeight.png",
+        "maxHeight": 305,
+        "minHeight": 290,
+        "textureMap": "planets/textures/TitanColor.png"
+    },
+    "Water": {
+        "size": 292
+    },
+    "Orbit": {
+        "primaryBody": "Uuanga",
+        "semiMajorAxis": 6144,
+        "isTidallyLocked": true,
+        "dottedOrbitLine": false,
+        "showOrbitLine": true,
+        "eccentricity": 0,
+        "longitudeOfAscendingNode": 0,
+        "trueAnomaly": 0,
+        "siderealPeriod": 0,
+        "isMoon": false,
+        "alignmentAxis": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "canShowOnTitle": true,
+    "Spawn": {
+        "playerSpawn": {
+            "startWithSuit": true,
+            "position": {
+                "x": -83.72034,
+                "y": 281.7096,
+                "z": 11.4364
+            },
+            "rotation": {
+                "x": 341.5757,
+                "y": 76.91112,
+                "z": 355.6622
+            }
+        },
+        "shipSpawn": {
+            "rotation": {
+                "x": 11.13331,
+                "y": 222.1216,
+                "z": 354.907
+            },
+            "position": {
+                "x": -70.87837,
+                "y": 286.4745,
+                "z": 24.79164
+            },
+            "offset": {
+                "x": 0,
+                "y": 4,
+                "z": 0
+            }
+        }
+    },
+    "Props": {
+        "translatorText": [
+            {
+                "type": "whiteboard",
+                "xmlFile": "planets/text/TextGuide.xml",
+                "position": {
+                    "x": -78.70169,
+                    "y": 284.9916,
+                    "z": 29.66567
+                },
+                "rotation": {
+                    "x": 349.2093,
+                    "y": 117.468,
+                    "z": 348.9754
+                },
+                "rename": "Titan's Guide to the Titanverse",
+                "seed": 0,
+                "arcInfo": [
+                    {
+                        "type": "adult",
+                        "mirror": false
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    },
+                    {
+                        "type": "child"
+                    }
+                ],
+                "isRelativeToParent": false,
+                "alignRadial": false
+            }
+        ]
+    }
+}

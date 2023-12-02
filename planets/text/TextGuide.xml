@@ -1,0 +1,51 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>Titan's guide to the Titanverse.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>Qnario: PR ORBS
+— a spherical planet which is the least dense being a radius of 50000 light years and the most dense being 600000 light years and higher.
+Textures resemble a starfield or a galaxy with scattered matter around..</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>Titan: Qnario, thanks for explaining, by the way if you don't know, Risen Titan is a PR Orb.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>Titan: If you traveled here using the Warp Drive, you're welcome fellow Hatchling.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB />
+		<Text>Ganymede: Uhm, can he solve the mystery of the Titanverse?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>Titan: THIS IS A GUIDE</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>Ganymede: Oh yeah, also there is a Dyson Sphere orbiting the star and it is called Orb E.T. aka that Death Star looking thing from Pluto's Reprisal that is the UAI homeworld.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>Titan: Great, end guide.</Text>
+	</TextBlock>
+</NomaiObject>

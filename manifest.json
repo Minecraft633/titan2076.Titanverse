@@ -1,0 +1,11 @@
+{
+    "filename": "NewHorizonsConfig.dll",
+    "author": "titan2076",
+    "name": "Titanverse",
+    "uniqueName": "titan2076.Titanverse",
+    "version": "0.0.0",
+    "owmlVersion": "2.1.0",
+    "dependencies": [
+        "xen.NewHorizons"
+    ]
+}
